@@ -25,7 +25,13 @@ const builtinExtensions = {
     text2speech: () => require('../extensions/scratch3_text2speech'),
     translate: () => require('../extensions/scratch3_translate'),
     videoSensing: () => require('../extensions/scratch3_video_sensing'),
-    makeymakey: () => require('../extensions/scratch3_makeymakey')
+    makeymakey: () => require('../extensions/scratch3_makeymakey'),
+    faceDetection:() => require('../extensions/scratch3_facedetection'),
+    objectDetection:() => require('../extensions/scratch3_objectdetection'),
+    posenet:()=> require('../extensions/posenet'),
+    Scratch3Speech2TextBlocks:()=> require('../extensions/scratch3_speech2text'),
+    Scratch3ML4KQnaBlocks:()=> require('../extensions/scratch3_ml4kidsqna'),
+    Scratch3ML4KWikipediaBlocks:()=> require('../extensions/scratch3_ml4kidswikipedia')
 };
 
 const builtinDevices = {
