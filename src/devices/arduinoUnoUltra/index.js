@@ -813,7 +813,7 @@ class OpenBlockArduinoUnoUltraDevice {
                         arguments: {
                             VALUE: {
                                 type: ArgumentType.STRING,
-                                defaultValue: 'Hello OpenBlock'
+                                defaultValue: 'Hello HaniBlock'
                             },
                             EOL: {
                                 type: ArgumentType.STRING,
