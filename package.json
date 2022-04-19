@@ -30,6 +30,9 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "@teachablemachine/image": "^0.8.4",
+    "@teachablemachine/pose": "^0.8.6",
+    "@tensorflow-models/speech-commands": "^0.4.2",
     "@tensorflow/tfjs": "^3.13.0",
     "@tensorflow/tfjs-core": "^3.13.0",
     "@tensorflow/tfjs-node": "^3.13.0",

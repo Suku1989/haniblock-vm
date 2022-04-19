@@ -58,6 +58,9 @@ module.exports = [
                     loader: 'expose-loader?VirtualMachine'
                 }
             ])
+        },
+        node: {
+            fs: "empty"
         }
     }),
     // Node-compatible
@@ -80,6 +83,9 @@ module.exports = [
             'scratch-parser': true,
             'socket.io-client': true,
             'text-encoding': true
+        },
+        node: {
+            fs: "empty"
         }
     }),
     // Playground
@@ -127,6 +133,9 @@ module.exports = [
         },
         performance: {
             hints: false
+        },
+        node: {
+            fs: "empty"
         },
         plugins: base.plugins.concat([
             new CopyWebpackPlugin([{

@@ -31,7 +31,8 @@ const builtinExtensions = {
     posenet:()=> require('../extensions/posenet'),
     Scratch3Speech2TextBlocks:()=> require('../extensions/scratch3_speech2text'),
     Scratch3ML4KQnaBlocks:()=> require('../extensions/scratch3_ml4kidsqna'),
-    Scratch3ML4KWikipediaBlocks:()=> require('../extensions/scratch3_ml4kidswikipedia')
+    Scratch3ML4KWikipediaBlocks:()=> require('../extensions/scratch3_ml4kidswikipedia'),
+    teachableMachine: () => require('../extensions/scratch3_teachable_machine')
 };
 
 const builtinDevices = {
